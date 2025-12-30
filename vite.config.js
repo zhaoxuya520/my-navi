@@ -3,9 +3,8 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 import react from '@vitejs/plugin-react';
 
-// GitHub Pages 部署配置
-// 如果部署到 https://<USERNAME>.github.io/<REPO>/，需要设置 base 为 '/<REPO>/'
-const base = '/my-navi/';
+// GitHub Pages 部署配置 - 使用自定义域名
+const base = '/';
 
 // https://vitejs.dev/config/
 export default defineConfig({
